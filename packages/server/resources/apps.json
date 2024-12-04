@@ -5,8 +5,8 @@
 		"name": "Webhook",
 		"description": "With our Webhooks integration, you can send every submission straight to any URL as soon as it’s submitted.",
 		"avatar": "/static/webhook.png",
-		"homepage": "https://docs.heyform.net/",
-		"helpLinkUrl": "https://docs.heyform.net/",
+		"homepage": null,
+		"helpLinkUrl": null,
 		"status": 1
 	},
 	{

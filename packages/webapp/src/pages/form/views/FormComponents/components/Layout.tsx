@@ -32,7 +32,7 @@ const LayoutComponent: FC<FormLayout> = props => {
       <img
         src={props!.mediaUrl}
         style={filterStyle(props!.brightness)}
-        alt="HeyForm layout image"
+        alt="Zeroform layout image"
       />
     </div>
   )

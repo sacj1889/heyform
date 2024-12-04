@@ -104,8 +104,6 @@ const FormBuilder: FC<{ form: FormModel }> = ({ form }) => {
 
   useEffect(() => {
     formStore.update(getUpdates(state.fields!))
-
-    // Add to queue
     if (state.version > 0) {
       queue.add(async () => {
         await syncForm()

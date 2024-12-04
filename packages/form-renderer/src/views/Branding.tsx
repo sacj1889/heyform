@@ -14,10 +14,10 @@ export const Branding: FC = () => {
   }
 
   return (
-    <a className="heyform-branding" href="https://heyform.net/?ref=badge" target="_blank">
+    <a className="heyform-branding" href="http://zeroform.in/" target="_blank">
       <Trans
         t={t}
-        i18nKey="Made with HeyForm"
+        i18nKey="Made with Zeroform"
         components={{
           icon: <LogoIcon className="inline h-4 w-4" />,
           span: <span className="font-bold" />
